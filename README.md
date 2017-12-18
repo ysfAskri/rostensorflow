@@ -6,13 +6,13 @@ rostensorflow
 - Install cv-bridge
 
 ```bash
-$ sudo apt-get install ros-kinetic-cv-bridge ros-kinetic-opencv3
+sudo apt-get install ros-kinetic-cv-bridge ros-kinetic-opencv3
 ```
 
 - (Optional) Install camera driver (for example, cv_camera)
 
 ```bash
-$ sudo apt-get install ros-kinetic-cv-camera
+sudo apt-get install ros-kinetic-cv-camera
 ```
 
 
@@ -21,10 +21,10 @@ TensorFlow install note (without GPU)
 Please read official guide. This is a only note for me.
 
 ```bash
-$ sudo apt-get install python-pip python-dev python-virtualenv
-$ virtualenv --system-site-packages ~/tensorflow
-$ source ~/tensorflow/bin/activate
-$ pip install --upgrade tensorflow
+sudo apt-get install python-pip python-dev python-virtualenv
+virtualenv --system-site-packages ~/tensorflow
+source ~/tensorflow/bin/activate
+pip install --upgrade tensorflow
 ```
 
 image_recognition.py
