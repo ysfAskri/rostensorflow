@@ -39,6 +39,7 @@ How to try
 roscore
 rosrun cv_camera cv_camera_node
 source ~/tensorflow/bin/activate
+export TF_CPP_MIN_LOG_LEVEL=2
 python image_recognition.py image:=/tango/camera/color_1/image_raw
 rostopic echo /result
 ```
