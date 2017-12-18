@@ -36,9 +36,9 @@ image_recognition.py
 How to try
 
 ```bash
-$ roscore
-$ rosrun cv_camera cv_camera_node
-$ source ~/tensorflow/bin/activate
-$ python image_recognition.py image:=/cv_camera/image_raw
-$ rostopic echo /result
+roscore
+rosrun cv_camera cv_camera_node
+source ~/tensorflow/bin/activate
+python image_recognition.py image:=/tango/camera/color_1/image_raw
+rostopic echo /result
 ```
